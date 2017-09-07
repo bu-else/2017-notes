@@ -80,4 +80,4 @@ Throughout this course we will cover (and utilize within the context of ongoing 
   * Some links of interest
     * [Usability.gov -> Use Cases](https://www.usability.gov/how-to-and-tools/methods/use-cases.html)
     * [Another sample use case](http://tynerblain.com/blog/2007/04/09/sample-use-case-example/)
-    * [Tips for writing good use cases](ftp://ftp.software.ibm.com/software/rational/web/whitepapers/RAW14023-USEN-00.pdf)
+    * Tips for writing good use cases (ftp://ftp.software.ibm.com/software/rational/web/whitepapers/RAW14023-USEN-00.pdf)
