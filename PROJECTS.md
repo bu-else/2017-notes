@@ -8,7 +8,8 @@ This file contains brief, high-level project descriptions. There are also sugges
 Unintentional poisoning, primarily from drug overdose, is the leading cause of injury-related death among Americans. However, individuals may not be willing to report an overdose via 911 due to fear of interacting with law enforcement. This project involves creating a cross-platform mobile application whose primary functionality allows users to notify authorities anonymously that someone is suffering from an overdose in a particular location. The app also aims to help users identify someone nearby that is carrying Naloxone (a medication that can block the effects of opioids).
 
 Possible technologies that may be useful include:
-* [Ionic](https://ionicframework.com/) and a [Google Maps Plugin](https://ionicframework.com/docs/native/google-maps/)
+* [Ionic](https://ionicframework.com/)
+* [Google Maps Plugin](https://ionicframework.com/docs/native/google-maps/) for Ionic or [Leaflet](http://leafletjs.com/)
 * [Firebase](https://firebase.google.com/) or [MongoDB](https://www.mongodb.com/) (with [hapi](https://hapijs.com/) or [Frame](https://jedireza.github.io/frame/))
 * [Twilio](https://www.twilio.com/)
 
@@ -58,8 +59,8 @@ This project requires the assembly of a front-end website that can parse and dis
 
 Possible technologies that may be useful include:
 * [Firebase](https://firebase.google.com/) and/or [Frame](https://jedireza.github.io/frame/)
-* [Foundation](http://foundation.zurb.com/), [Bootstrap UI](http://www.bootstrap-ui.com/), and/or [Angular](https://angular.io/)
-* [SheetJS](http://sheetjs.com/)
+* [Foundation](http://foundation.zurb.com/), [Semantic UI](https://semantic-ui.com/), [Bootstrap UI](http://www.bootstrap-ui.com/), and/or [Angular](https://angular.io/)
+* [SheetJS](http://sheetjs.com/) and/or [Clusterize.js](https://clusterize.js.org/)
 * [Leaflet](http://leafletjs.com/)
 
 Non-functional requirements (brainstorm):
@@ -105,8 +106,9 @@ Computerized adaptive testing (CAT) is a form of computer-based evaluation of in
 
 Possible technologies that may be useful include:
 * [Aqua](https://jedireza.github.io/aqua/) or [Frame](https://jedireza.github.io/frame/) (or [Anchor](https://github.com/hicsail/anchor), a BU fork of Frame)
-* [Foundation](http://foundation.zurb.com/), [Bootstrap UI](http://www.bootstrap-ui.com/), and/or [Angular](https://angular.io/)
+* [Foundation](http://foundation.zurb.com/), [Semantic UI](https://semantic-ui.com/), [Bootstrap UI](http://www.bootstrap-ui.com/), [React](https://facebook.github.io/react/), and/or [Angular](https://angular.io/)
 * [Chart.js](http://www.chartjs.org/) or [D3.js](https://d3js.org/)
+* [Assets](https://assets.cms.gov/resources/framework/2.0/Pages/) or [Web Experience Toolkit](http://wet-boew.github.io/wet-boew/index-en.html) for accessibility standards compliance
 
 ## Mobile App for Traumatic Brain Injury Assessment
 
@@ -116,6 +118,7 @@ Every year roughly 1.7 million Americans sustain a traumatic brain injury, appro
 
 Possible technologies that may be useful include:
 * [Ionic](https://ionicframework.com/)
+* [Aqua](https://jedireza.github.io/aqua/) or [Frame](https://jedireza.github.io/frame/) (or [Anchor](https://github.com/hicsail/anchor), a BU fork of Frame)
 * [Chart.js](http://www.chartjs.org/)
 
 Non-functional requirements (brainstorm):
