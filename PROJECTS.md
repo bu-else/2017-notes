@@ -110,6 +110,52 @@ Possible technologies that may be useful include:
 * [Chart.js](http://www.chartjs.org/) or [D3.js](https://d3js.org/)
 * [Assets](https://assets.cms.gov/resources/framework/2.0/Pages/) or [Web Experience Toolkit](http://wet-boew.github.io/wet-boew/index-en.html) for accessibility standards compliance
 
+Use case example:
+* Brief description
+  * A user self-administers an assessment to track their own progress.
+
+* Actors (primary and secondary)
+  * Patient/user (primary)
+  * Administrator/clinician (secondary)
+
+* Flow of events
+  * Basic flow
+    * Receive an email from the clinician with a link
+    * User follows link
+    * User agrees to terms of use/end-user license agreement
+    * User completes registration process
+      * User verifies their email address
+    * User receives confirmation email
+      * Could contain instructions on how to get started (or a link to first assessment)
+    * User lands on a home page
+    * User can begin assessment
+      * User answers each multiple-choice question
+      * Perhaps open questions/feedback mechanisms
+      * User sees progress bar [4]
+    * User saves current progress
+    * User logs out
+    * Later, user logs back in [1] [2]
+      * User sees option to resume assessment or start over
+    * User finishes all the questions
+    * User sees a visual summary of the results
+    * User looks at one of the past results (e.g., by date)
+      * User sees list of dates of past assessments
+      * Each date is clickable
+  * Alternative flows
+    * [1] User logs in
+      * User goes to account settings
+      * User chooses to change password
+      * [3] User receives email with password update link
+      * User clicks on link
+      * Page prompts user for new password
+      * User lands on home page
+    * [2] User cannot log in (e.g., forgot password)
+      * User clicks "reset password"
+      * Goes to [3]
+    * [4] User closes the browser tab
+      * User opens the CAT website in under 5 minutes
+      * User lands on home page and has the option to resume
+
 ## Mobile App for Traumatic Brain Injury Assessment
 
 *Credits*: Anna Hohler (Associate Professor of Neurology, BU School of Medicine)
