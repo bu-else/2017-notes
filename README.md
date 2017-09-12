@@ -52,7 +52,7 @@ Throughout this course we will cover (and utilize within the context of ongoing 
   * Maintenance
 
 * Functional requirements
-  * **Gathering**: Discuss with the client and end users (or collect via surveys, questionnaires, and so on) to understan their expectations of the software artifact(s) to be built.
+  * **Gathering**: Discuss with the client and end users (or collect via surveys, questionnaires, and so on) to understand their expectations of the software artifact(s) to be built.
   * **Organizing**: Prioritize and arrange the requirements in order of importance, urgency, and convenience.
   * **Negotiation and discussion**: If requirements are ambiguous or there are some conflicts in requirements of various stakeholders, it is then negotiated and discussed with stakeholders. Requirements may then be prioritized and reasonably compromised.
   * **Documentation**: All formal & informal, functional and non-functional requirements are documented and made available for review.
