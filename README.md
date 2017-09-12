@@ -44,43 +44,59 @@ Throughout this course we will cover (and utilize within the context of ongoing 
 
 ## Feasibility, Requirements, and Use Cases
 
-* Feasibility
-  * Usability
-  * Architecture
-  * Data
-  * Security
-  * Maintenance
+### Feasibility
 
-* Functional requirements
-  * **Gathering**: Discuss with the client and end users (or collect via surveys, questionnaires, and so on) to understand their expectations of the software artifact(s) to be built.
-  * **Organizing**: Prioritize and arrange the requirements in order of importance, urgency, and convenience.
-  * **Negotiation and discussion**: If requirements are ambiguous or there are some conflicts in requirements of various stakeholders, it is then negotiated and discussed with stakeholders. Requirements may then be prioritized and reasonably compromised.
-  * **Documentation**: All formal & informal, functional and non-functional requirements are documented and made available for review.
+* Usability
+* Architecture
+* Data
+* Security
+* Maintenance
 
-* Non-functional requirements
-  * Logging
-  * Storage
-  * Configuration
-  * Performance
-  * Cost
-  * Interoperability: does it need to work with other services or frameworks
-  * Flexibility
-  * Accessibility
-  * Security
-  * Disaster recovery
+### Functional requirements
 
-* Use cases
-  * General characteristics
-    * As detailed as possible
-    * Not the same as design criteria
-    * Concrete actors and actions
-    * Rich scenarios (skill level, motivation, condition)
-    * Not likely to be exhaustive
-    * Preferably few in number
-  * Some links of interest
-    * [Usability.gov -> Use Cases](https://www.usability.gov/how-to-and-tools/methods/use-cases.html)
-    * [Another sample use case](http://tynerblain.com/blog/2007/04/09/sample-use-case-example/)
-    * Tips for writing good use cases (ftp://ftp.software.ibm.com/software/rational/web/whitepapers/RAW14023-USEN-00.pdf)
+* **Gathering**: Discuss with the client and end users (or collect via surveys, questionnaires, and so on) to understand their expectations of the software artifact(s) to be built.
+* **Organizing**: Prioritize and arrange the requirements in order of importance, urgency, and convenience.
+* **Negotiation and discussion**: If requirements are ambiguous or there are some conflicts in requirements of various stakeholders, it is then negotiated and discussed with stakeholders. Requirements may then be prioritized and reasonably compromised.
+* **Documentation**: All formal & informal, functional and non-functional requirements are documented and made available for review.
+
+### Non-functional requirements
+
+* Logging
+* Storage
+* Configuration
+* Performance
+* Cost
+* Interoperability: does it need to work with other services or frameworks
+* Flexibility
+* Accessibility
+* Security
+* Disaster recovery
+
+### Use cases
+
+Use cases are another way to organize requirements (grouped by the tasks with which they are associated from a user perspective). Thus, they usually deal with behaviors that are observable to the user. They can be functional or non-functional (e.g., performance).
+
+* General characteristics/guidelines
+  * As detailed as possible
+  * Not the same as design criteria
+  * Concrete actors and actions
+  * Rich scenarios (skill level, motivation, condition)
+  * Not likely to be exhaustive (focus on the main goal of a user)
+  * Preferably few in number
+  * Avoid nesting conditions
+* Some links of interest
+  * [Usability.gov -> Use Cases](https://www.usability.gov/how-to-and-tools/methods/use-cases.html)
+  * [Another sample use case](http://tynerblain.com/blog/2007/04/09/sample-use-case-example/)
+  * Tips for writing good use cases (ftp://ftp.software.ibm.com/software/rational/web/whitepapers/RAW14023-USEN-00.pdf)
+
+Use cases should more closely match user acceptance or usability tests rather than unit tests.
+
+A possible outline of a use case:
+* Brief description
+* Actors (primary and secondary)
+* Flow of events
+  * Basic flow
+  * Alternative flows
 
 ## Design
 
