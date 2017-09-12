@@ -81,3 +81,26 @@ Throughout this course we will cover (and utilize within the context of ongoing 
     * [Usability.gov -> Use Cases](https://www.usability.gov/how-to-and-tools/methods/use-cases.html)
     * [Another sample use case](http://tynerblain.com/blog/2007/04/09/sample-use-case-example/)
     * Tips for writing good use cases (ftp://ftp.software.ibm.com/software/rational/web/whitepapers/RAW14023-USEN-00.pdf)
+
+## Design
+
+There are three design stages for a user-facing software application that can be identified. Sometimes dedicated UI/UX designers take on these tasks.
+
+* Wireframe
+  * Low-fidelity representation of the design
+  * Main content groups (what is visible)
+  * Structure of information (where it appears)
+  * User interaction (how it reacts/behaves in response to user actions)
+  * Should be done quickly
+* Mockup
+  * Has visual representation and content
+  * Demonstrates functionalities in a static way (need not be interactive)
+  * Could include a storyboard-like walkthrough of use cases
+  * Sometimes useful to promote idea or gain support to move further
+  * Could be an iterative process to gather feedback/changes
+* Prototype
+  * Looks close to the final product (has visual representation and content)
+  * Simulates user interaction (but actions need not be tied to one another)
+  * Can be used for usability testing (e.g., a think-aloud study)
+
+One possible tool that can be used for assembling designs during both the wireframe and mockup stages is [Balsamiq](https://balsamiq.com/).
