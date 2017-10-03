@@ -120,3 +120,32 @@ There are three design stages for a user-facing software application that can be
   * Can be used for usability testing (e.g., a think-aloud study)
 
 One possible tool that can be used for assembling designs during both the wireframe and mockup stages is [Balsamiq](https://balsamiq.com/).
+
+## Notes on Mobile Development
+
+Existing mobile app development frameworks can be broken up into a number of categories.
+
+* Native
+  * Direct access to all features within the OS (Android, iOS, and so on)
+  * Effectively need to have two teams work on two different code bases
+  * Need to manage synchronization issues between teams
+* Cross-platform
+  * Use a dedicated cross-platform framework
+  * Compilation to native code
+    * This may lead to "lowest common demoninator" features
+  * Will not have too singificant performance impact
+* Hybrid
+  * Relies on web technologies (HTML, CSS, JavaScript, TypeScript)
+  * Application is essentially running a web browser
+  * App displays content that looks native but is a webpage in the browser
+  * No native access to device capabilities unless bridges are built
+  * Examples include Ionic framework
+* Responsive Development
+  * A website that renders itself accordingly depending on the device
+  
+Some factors might play a role in your decision about which type of framework is appropriate for your project.
+
+* If speed is important or need device features, use a native framework
+* If there is a tight budget or deadline, use non-native approach
+* Assess the community around the framework
+  - Absence of community support can be slow you down
