@@ -195,4 +195,8 @@ Below, we briefly enumerate some points of interest in the history of version co
     * More user-friendly command line interface
   * Version control systems are now being developed for professional target audiences in other domains (music, law, medicine, and so on).
 
-In this course, we will use Git. Git offers a variety of features; its flexibility allows developers to use a variety of different workflows that are all compatible with Git. While there are many options, in this course we will adopt a Git workflow that is similar to the following one: [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/).
+In this course, we will use Git. Git offers a variety of features; its flexibility allows developers to use a variety of different workflows that are all compatible with Git. While there are many options, in this course we will adopt a branch-oriented Git workflow that is similar to the following one: [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/). In addition to the branch management practices described, we will adopt a few additional practices:
+
+  * Feature branch names should always begin with the prefix `feature-`
+  * Feature branches should be added to `origin` in order to avoid loss of code
+  * Every feature and hotfix branch must have exactly one corresponding GitHub issue.
