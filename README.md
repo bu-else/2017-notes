@@ -154,46 +154,46 @@ Some factors might play a role in your decision about which type of framework is
 
 Below, we briefly enumerate some points of interest in the history of version control systems (VCSs).
 
-  * Source Code Control System (SCCS)
-    * Developed in Bell Labs in 1972
-  * Revision Control System (RCS)
-    * Only works on single files
-    * Primarily useful as a locking mechanism
-    * Version history can be edited by users
-  * Concurrent Versions System (CVS)
-    * No new releases since 2008
-    * Client-server with checkout of complete copies
-    * Concurrent work possible; only changes to latest version of a file are accepted
-    * Changes require an account and password
-    * Support for branches
-    * Delta compression to store changes
-  * SVN
-    * Created to be mostly compatible with CVS
-    * Support for binary files
-    * Still used for some major open source projects
-    * Many access control options
-    * Support for branches exists (but is cumbersome and used sparingly)
-    * Centralized model
-      * One of the creator's stated goals: prevent "insecure programmers" from hiding their code
-      * Only one copy of the complete history is present
-        * Backups of the one central repository must be maintained independently
-      * Users only need to keep a copy of files on which they are working
-    * User interfaces more mature (and arguably easier to create)
-  * Git
-    * Distributed architecture
-      * Multiple redundant repositories
-      * Every user has a complete copy of the repository stored locally
-    * No centralized access control
-      * Users individually decide from whom to merge changes
-    * Users have their own local version control at all times
-    * Branching is a standard and frequent part of the workflow
-    * Merging is a standard and frequent part of the workflow
-    * As repositories grow, storage cost of redundant copies can be an issue
-      * Large projects sometimes slit their codebase into separate components, each with their own repository
-  * Mercurial
-    * Distributed architecture
-    * More user-friendly command line interface
-  * Version control systems are now being developed for professional target audiences in other domains (music, law, medicine, and so on).
+* Source Code Control System (SCCS)
+  * Developed in Bell Labs in 1972
+* Revision Control System (RCS)
+  * Only works on single files
+  * Primarily useful as a locking mechanism
+  * Version history can be edited by users
+* Concurrent Versions System (CVS)
+  * No new releases since 2008
+  * Client-server with checkout of complete copies
+  * Concurrent work possible; only changes to latest version of a file are accepted
+  * Changes require an account and password
+  * Support for branches
+  * Delta compression to store changes
+* SVN
+  * Created to be mostly compatible with CVS
+  * Support for binary files
+  * Still used for some major open source projects
+  * Many access control options
+  * Support for branches exists (but is cumbersome and used sparingly)
+  * Centralized model
+    * One of the creator's stated goals: prevent "insecure programmers" from hiding their code
+    * Only one copy of the complete history is present
+      * Backups of the one central repository must be maintained independently
+    * Users only need to keep a copy of files on which they are working
+  * User interfaces more mature (and arguably easier to create)
+* Git
+  * Distributed architecture
+    * Multiple redundant repositories
+    * Every user has a complete copy of the repository stored locally
+  * No centralized access control
+    * Users individually decide from whom to merge changes
+  * Users have their own local version control at all times
+  * Branching is a standard and frequent part of the workflow
+  * Merging is a standard and frequent part of the workflow
+  * As repositories grow, storage cost of redundant copies can be an issue
+    * Large projects sometimes slit their codebase into separate components, each with their own repository
+* Mercurial
+  * Distributed architecture
+  * More user-friendly command line interface
+* Version control systems are now being developed for professional target audiences in other domains (music, law, medicine, and so on).
 
 In this course, we will use Git. Git offers a variety of features; its flexibility allows developers to use a variety of different workflows that are all compatible with Git. While there are many options, in this course we will adopt a branch-oriented Git workflow that is similar to the following one: [http://nvie.com/posts/a-successful-git-branching-model/](http://nvie.com/posts/a-successful-git-branching-model/). In addition to the branch management practices described, we will adopt a few additional practices:
 
